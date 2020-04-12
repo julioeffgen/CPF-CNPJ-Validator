@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CPF-CNPJ-Validator'
-  s.version = '1.0.2'
+  s.version = '2.0.2'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = '✅ A Swifty CPF and CNPJ validator'
 
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Francesco Perrotti-Garcia' => 'fpg1503@gmail.com' }
   s.social_media_url = 'https://twitter.com/fpg1503'
   s.source = { :git => 'https://github.com/fpg1503/CPF-CNPJ-Validator.git', :tag => s.version }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version  = '5.0'
   s.source_files = 'Source/*.swift'
 end
